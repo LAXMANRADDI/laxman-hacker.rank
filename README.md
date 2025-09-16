@@ -1,2 +1,2 @@
-# laxman-hacker.rank
-@ solved some problems on hacker rank platform for competitive coding . 
+@ Laxman on hackerrank
+1 .........given/ input  number (n) using simple mathamatical operator "**" , which is used for squaring the number
