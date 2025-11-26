@@ -86,3 +86,33 @@ if __name__ == '__main__':
     first_name = input()
     last_name = input()
     print_full_name(first_name, last_name)
+
+
+
+ 5]We have seen that lists are mutable (they can be changed), and tuples are immutable (they cannot be changed).Let's try to understand this with an example.
+ You are given an immutable string, and you want to make changes to it.
+soln :
+
+def mutate_string(string, position, character):
+    return string[:position]+ character + string[position+1:]
+
+if __name__ == '__main__':
+    s = input()
+    i, c = input().split()
+    s_new = mutate_string(s, int(i), c)
+    print(s_new) 
+
+or 
+using controlled replace()   function :
+
+def mutate_string(string, position, character):
+    old = string[position]      # old character at the position
+    temp = string[position:].replace(old, character, 1)
+    return string[:position] + temp 
+
+input :
+abracadabra
+5 k
+output  :
+abrackdabra
+
