@@ -78,4 +78,11 @@ output :"H" "72" "e" "101" "l" "108" "l" "108" "o" "111"
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4 ] full nmae using f string
+def print_full_name(first, last):
+  print(f"Hello {first} {last}! You just delved into python." )
 
+if __name__ == '__main__':
+    first_name = input()
+    last_name = input()
+    print_full_name(first_name, last_name)
