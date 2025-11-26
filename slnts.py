@@ -68,6 +68,12 @@ def swap_case_ascii(s):
         else:
             result += ch                 # other characters unchanged
     return result
+ refernce :
+s = "Hello"
+for ch in s:
+    print(f'"{ch}" "{ord(ch)}"', end=' ')
+input :
+output :"H" "72" "e" "101" "l" "108" "l" "108" "o" "111"
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
