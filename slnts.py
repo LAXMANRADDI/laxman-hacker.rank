@@ -28,3 +28,15 @@ for i in range(N):
         lst.pop()
     elif op == "reverse":
         lst.reverse()
+
+
+2 ] Problem Statement You are given,An integer n A list of n integerYou must create a tuple from these integers and print the hash value of the tuple. 
+
+soln :
+n = int(input())
+numbers = tuple(map(int, input().split())) 
+print(hash(numbers))
+
+
+
+
