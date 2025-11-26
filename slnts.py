@@ -36,7 +36,15 @@ soln :
 n = int(input())
 numbers = tuple(map(int, input().split())) 
 print(hash(numbers))
+^^^^^^^^^^^^^^^^^^^^
 
+3] swapping case problem :
 
+n = int(input())
+numbers = tuple(map(int, input().split()))
+print(hash(numbers)) 
+input :   HackerRank.com presents "Pythonist 2".
+output:   hACKERrANK.COM PRESENTS "pYTHONIST 2"
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
