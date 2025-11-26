@@ -56,7 +56,19 @@ or
     return result 
  or 
 
-if they said (without using .upper(), .lower(), or .swapcase()). 
+if they said (without using .upper(), .lower(), or .swapcase()).   let's us ascii values and swap chars.
+def swap_case_ascii(s):
+    result = ""
+    for ch in s:
+        ascii_val = ord(ch)
+        if 97 <= ascii_val <= 122:       # lowercase a-z
+            result += chr(ascii_val - 32)
+        elif 65 <= ascii_val <= 90:      # uppercase A-Z
+            result += chr(ascii_val + 32)
+        else:
+            result += ch                 # other characters unchanged
+    return result
+
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
