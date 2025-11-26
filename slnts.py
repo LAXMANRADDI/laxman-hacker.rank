@@ -44,7 +44,20 @@ n = int(input())
 numbers = tuple(map(int, input().split()))
 print(hash(numbers)) 
 input :   HackerRank.com presents "Pythonist 2".
-output:   hACKERrANK.COM PRESENTS "pYTHONIST 2"
+output:   hACKERrANK.COM PRESENTS "pYTHONIST 2" 
+or 
+ def swap_case(s):
+    result = ""
+    for ch in s:
+        if ch.islower():
+            result += ch.upper()
+        else:
+            result += ch.lower()
+    return result 
+ or 
+
+if they said (without using .upper(), .lower(), or .swapcase()). 
+
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
